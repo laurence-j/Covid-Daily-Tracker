@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Digital Dashboard</title>
+  <meta name = "description" content = "Assignment 5">
+  <meta name = "author" content = "Laurence Jiang">
+  <link rel = "stylesheet" href="ljia937.css">
+  <script src="ljia937.js"> </script>
+  
+</head>
+
+<body>
+  <div id = "tabs">
+      <table class="table1">
+          <tr style ="cursor: pointer;">
+              <td><div id = "logo">😷</div></td>
+              <td id ="HomeTab" onclick = "getHome();" > 🏠 Home</td>
+              <td id ="TimelineTab" onclick = "getTimeline();"> 🌎 Timeline</td>
+              <td id ="InfographicsTab" onclick = "showInfographics();"> 🛈 Infographics</td>
+          </tr>
+      </table>
+  </div>
+  <div id = "Home">
+      <h1>New Zealand Covid-19 Cases (Unofficial Dashboard)</h1>
+
+      <b><hr></b>
+
+      <p>Data provided is sourced publicly and updated daily from the Ministry of Health through local Web APIs. Here are the total figures for today:</p>
+
+      <table id = "homeTable"></table>
+
+  </div>
+
+  <div id = "Timeline">
+      <h1>COVID-19 Timeline </h1>
+      <h2>(From 2/28/20 til Latest Daily Update)</h2>
+      <h2>Last updated: <p id = latest-date></p></h2> 
+
+      <b><hr></b>
+      <table id = "timelineTable"></table>
+      
+  </div>
+
+  <div id = "Infographics">
+    <h1>Infographics</h1>
+    <h2>(New COVID-19 daily cases data in the previous 7 days) </h2> 
+
+    <b><hr></b>
+    <p id = info ></p>
+    <p id = "Graph"></p>
+
+  </div>
+  </body>
+</html>

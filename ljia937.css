@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+div{
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+hr{
+    border: none;
+    height: 4px;
+    color: black;
+    background-color: black;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 3vw;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 1.5vw;
+}
+
+#HomeTab{
+    font-family: Arial;
+    font-size: 3vw;
+}
+
+#TimelineTab{
+    font-family: Arial;
+    font-size: 3vw;
+}
+
+
+#InfographicsTab{
+    font-family: Arial;
+    font-size: 3vw;
+}
+
+p{
+    font-family: Arial;
+    font-size: 2vw;
+}
+
+#logo{
+    padding-right: 100px;
+}
+
+.table1{
+    border-spacing: 2.5rem;
+    font-size: 4vw;
+}
+
+a{
+    color: black;
+}
+
+#Home{
+    display:block;
+}
+  
+#timelineTable{
+    position: center;
+    border-style: solid;
+    border-spacing: 2.5rem;
+    font-size: 1.8vw;
+}
+
+#homeTable{
+    border-style: hidden;
+    border-spacing: 4rem;
+    font-size: 2vw;
+}
+
+#logo{
+    cursor: default;
+}
+
+#info{
+    font-size: 1vw;
+}
